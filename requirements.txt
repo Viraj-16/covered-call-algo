@@ -1,0 +1,9 @@
+# Human-in-the-Loop Options Research Bot — dependencies
+# RESEARCH ONLY. No broker connectivity.
+
+yfinance>=0.2.40
+pandas>=2.0.0
+numpy>=1.26.0
+pandas_ta>=0.3.14b0
+google-generativeai>=0.7.0
+python-dotenv>=1.0.0

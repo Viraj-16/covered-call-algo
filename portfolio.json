@@ -1,0 +1,60 @@
+{
+  "positions": [
+    {
+      "ticker": "AAPL",
+      "state": "STATE_0_CASH",
+      "cost_basis": 0.0,
+      "assigned_price": 0.0,
+      "quantity": 0,
+      "active_options": []
+    },
+    {
+      "ticker": "MSFT",
+      "state": "STATE_0_CASH",
+      "cost_basis": 0.0,
+      "assigned_price": 0.0,
+      "quantity": 0,
+      "active_options": []
+    },
+    {
+      "ticker": "KO",
+      "state": "STATE_1_HOLDING_SHARES",
+      "cost_basis": 60.50,
+      "assigned_price": 60.50,
+      "quantity": 100,
+      "active_options": []
+    },
+    {
+      "ticker": "PFE",
+      "state": "STATE_1_HOLDING_SHARES",
+      "cost_basis": 28.75,
+      "assigned_price": 28.75,
+      "quantity": 200,
+      "active_options": [
+        {
+          "option_type": "CALL",
+          "expiration": "2026-09-18",
+          "strike": 30.0,
+          "contracts": 2,
+          "entry_premium": 0.55
+        }
+      ]
+    },
+    {
+      "ticker": "F",
+      "state": "STATE_0_CASH",
+      "cost_basis": 0.0,
+      "assigned_price": 0.0,
+      "quantity": 0,
+      "active_options": [
+        {
+          "option_type": "PUT",
+          "expiration": "2026-08-15",
+          "strike": 11.0,
+          "contracts": 1,
+          "entry_premium": 0.22
+        }
+      ]
+    }
+  ]
+}
